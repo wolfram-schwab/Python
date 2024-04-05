@@ -1,0 +1,21 @@
+
+      <!-- ul>
+        <li><a href="/ch01">Einführung </a></li>
+        <li><a href="/ch02">Variable </a></li>
+        <li><a href="/ch03">Operatoren </a></li>
+        <li><a href="/ch04">Datentypen </a></li>
+        <li><a href="/ch05">Zeichenketten </a></li>
+        <li><a href="/ch07">Ablaufsteuerung </a></li>
+        <li><a href="/ch06">Sammlungen </a></li>
+        <li><a href="/ch08">Funktionen </a></li>
+        <li><a href="/ch09">Datum und Zeit </a></li>
+        <li><a href="/ch10">List Comprehension </a></li>
+        <li><a href="/erweiterungen">Erweiterungen</a></li>
+        <li><a href="/specials">spezielle Themen</a></li>
+      </ul -->
+      
+      <ul>
+          {% for url, thema in themen.items() %}
+                 {{ list_format.format(url, thema) | safe }}
+          {% endfor %}
+      </ul>

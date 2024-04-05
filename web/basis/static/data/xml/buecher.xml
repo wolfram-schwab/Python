@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<buecher>
+  <buch ISBN="978-3-498-00081-3">
+    <titel>Unsichtbar</titel>
+    <autor>Paul Auster</autor>
+    <preis waehrung="€">9.99</preis>
+  </buch>
+  <buch ISBN="978-3-423-00400-8">
+    <titel>Ansichten eines Clowns</titel>
+    <autor>Heinrich Böll</autor>
+    <preis waehrung="€">10.90</preis>
+  </buch>
+  <buch ISBN="978-3-499-22189-7">
+    <titel>Der Fremde</titel>
+    <autor>Albert Camus</autor>
+    <preis waehrung="€">9.00</preis>
+  </buch>
+  <buch ISBN="978-3-257-23047-5">
+    <titel>Die Physiker</titel>
+    <autor>Friedrich Dürrenmatt</autor>
+    <preis waehrung="€">6.95</preis>
+  </buch>
+  <buch ISBN="978-3-518-01087-7">
+    <titel>Homo faber</titel>
+    <autor>Max Frisch</autor>
+    <preis waehrung="€">15.95</preis>
+  </buch>
+  <buch ISBN="978-3-498-03017-9">
+    <titel>Fiesta</titel>
+    <autor>Ernest Hemingway</autor>
+    <preis waehrung="€">19.95</preis>
+  </buch>
+  <buch ISBN="978-3-499-25496-3">
+    <titel>Empörung</titel>
+    <autor>Philip Roth</autor>
+    <preis waehrung="€">17.90</preis>
+  </buch>
+</buecher>

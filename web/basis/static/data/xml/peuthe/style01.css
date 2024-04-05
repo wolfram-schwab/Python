@@ -1,0 +1,97 @@
+/***********************************
+ * Globale Vorlagen                *
+ ***********************************/
+ body
+ { color            : #000000;
+   background-color : #FFFAE0;
+   text-align       : center;
+   font-family      : Verdana, sans-serif;
+   margin           : auto;
+   margin-top       : 0px;
+   padding          : 10px;
+   height           : 670px;  }
+
+ a
+ { text-decoration  : none;
+   border           : none;
+   cursor           : pointer;
+   font-weight      : bold;
+   color            : #0000CC; }
+
+ a:hover
+ { color            : #0000FF; }
+
+ h1
+ { text-align       : center;
+   height           : 45px;
+   color            : #336699;
+   margin-top       : 0px;
+   margin-bottom    : 0px;
+ }
+
+ h2
+ { margin-top       : 0px;
+   margin-bottom    : 0px;
+   text-align       : center;
+   height           : 45px;
+   color            : #003366; }
+
+ h3
+ { text-align       : center;
+   color            : #003366;
+   margin-top       : 23px;
+   margin-bottom    : 0.6em;
+ }
+
+ h4
+ { text-align       : left;
+   font-size        : 0.95em;
+   margin-top       : 0px;
+   margin-bottom    : 0.6em;
+ }
+
+ h5
+ { text-align       : left;
+   margin-top       : 1.0em;
+   margin-bottom    : 0.6em;
+ }
+
+ p
+ { text-align       : left;
+   margin-top       : 0px;
+   margin-bottom    : 0.6em;
+   font-weight      : bold;
+   font-size        : 0.75em; }
+
+ dl
+ { font-weight      : bold;
+   font-size        : 0.75em; }
+
+ dt
+ { float            : left; }
+
+ dd
+ { margin-top       : 0px;
+   margin-bottom    : 1.0em; }
+
+ table
+ { text-align      : right;
+   font-family     : Arial;
+   font-weight     : bold;
+   border-collapse : collapse;
+   margin-bottom   : 0.5em; }
+
+ caption
+ { font-size      : 1.0em;
+   padding-bottom : 1.0em;}
+
+ th
+ { border  : 1px solid black;
+   padding : 0.1em 0.5em; }
+
+ td
+ { font-size : 0.75em;
+   border    : 1px solid gray;
+   padding   : 0.1em 0.5em; }
+
+

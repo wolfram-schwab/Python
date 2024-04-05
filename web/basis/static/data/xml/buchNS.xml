@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" ?>
+
+<b:buecher xmlns:b="http://www.schwab.de/buch"
+           xmlns:a="http://www.schwab.de/autor"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.schwab.de/buch  buchNS.xsd
+                               http://www.schwab.de/autor autorNS.xsd">
+
+   <b:buch isbn="3-518-22220-1">
+      <b:titel>Das Dschungelbuch</b:titel>
+      <b:preis waehrung="€">6.49</b:preis>
+      <a:autor>
+         <a:name>Joseph Rudyard Kipling</a:name>
+         <a:geboren>1865-12-30</a:geboren>
+         <a:gestorben>1936-01-18</a:gestorben>
+         <a:preis jahr="1907">Nobelpreis für Literatur</a:preis>
+      </a:autor>
+   </b:buch>
+
+   <b:buch isbn="3-548-24047-X">
+      <b:titel>Die Weber</b:titel>
+      <b:preis waehrung="€">6.95</b:preis>
+      <a:autor>
+         <a:name>Gerhart Johann Robert Hauptmann</a:name>
+         <a:geboren>1862-11-15</a:geboren>
+         <a:gestorben>1946-06-06</a:gestorben>
+         <a:preis jahr="1912">Nobelpreis für Literatur</a:preis>
+      </a:autor>
+   </b:buch>
+
+   <b:buch isbn="3-596-27002-2">
+      <b:titel>Der Hauptmann von Köpenick</b:titel>
+      <b:preis waehrung="€">6.95</b:preis>
+      <a:autor>
+         <a:name>Carl Zuckmayer</a:name>
+         <a:geboren>1896-12-27</a:geboren>
+         <a:gestorben>1977-01-18</a:gestorben>
+         <a:preis jahr="1929">Georg-Büchner-Preis</a:preis>
+      </a:autor>
+   </b:buch>
+
+   <b:buch isbn="3-10-030906-5">
+      <b:titel>Wem die Stunde schlägt</b:titel>
+      <b:preis>14.00</b:preis>
+      <a:autor>
+         <a:name>Ernest Hemingway</a:name>
+         <a:geboren>1899-07-21</a:geboren>
+         <a:gestorben>1961-07-02</a:gestorben>
+         <a:preis jahr="1954">Nobelpreis für Literatur</a:preis>
+      </a:autor>
+   </b:buch>
+
+</b:buecher>
+      

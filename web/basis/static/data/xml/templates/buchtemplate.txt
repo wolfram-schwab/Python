@@ -1,0 +1,9 @@
+<buecher>
+{% for buch in buecher -%}
+  <buch isbn="{{ buch.ISBN }}">
+    <titel>{{ buch.Titel }}</titel>
+    <autor>{{ buch.Autor }}</autor>
+    <preis waehrung="€">{{ buch.Preis }}</preis>
+  </buch>
+{% endfor %}
+</buecher>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+
+<buecher>
+   <buch isbn="3423004002">
+      <titel>Ansichten eines Clowns</titel>
+      <jahr>1967</jahr>
+      <autor>Heinrich Böll</autor>
+      <preis waehrung="€">8.90</preis>
+   </buch>
+   <buch isbn="3518458558">
+      <titel>Der Steppenwolf</titel>
+      <jahr>1927</jahr>
+      <autor>Hermann Hesse</autor>
+      <preis waehrung="€">7.00</preis>
+   </buch>
+   <buch isbn="3423134119">
+      <titel>Deutschstunde</titel>
+      <jahr>1968</jahr>
+      <autor>Siegfried Lenz</autor>
+      <preis waehrung="€">9,90</preis>
+   </buch>
+</buecher>

@@ -1,0 +1,219 @@
+@charset "UTF-8";
+@import 'header.css';
+@import 'nav.css';
+
+* {
+	margin     : 0px;
+  box-sizing : border-box
+}
+
+html {
+	background : #fdfdfd;
+  padding    : 0;
+}
+
+body {
+	min-height   : 100vh;
+	font-family  : monospace;
+	font-size    : 16px;
+	padding      : 1.0rem;
+	padding-top  : 0;
+	background   : transparent;
+  margin       : auto;
+	position     : relative
+}
+
+header {
+	margin-bottom  : 5.0rem;
+  padding-left   : 1.5rem;
+  display        : flex;
+  justify-content: space-between;
+}
+
+aside {
+	float        : right;
+	width        : 15vw;
+	font-size    : 80%;
+	margin-right : 2.0em;
+	margin-top   : 4.0em;
+}
+
+aside h1 {
+  font-size : 125%;
+}
+
+main {
+	padding-left   : 10.0rem;
+  clear         : both;
+	margin-bottom : 2rem;
+  position      : relative;
+}
+
+aside h1 {
+	margin-bottom : 0.5rem;
+}
+aside>ul {
+	padding-left : 1.0rem;
+	list-style-type: none;
+}
+
+aside>ul>li {
+	margin-bottom: 0.5rem;
+}
+
+aside .stand {
+	margin-top : 0.5rem;
+	text-align : right;
+}
+
+article {
+	margin-right : 25vw;
+}
+
+article p,
+article>h1 {
+	margin-top   : 0.5rem;
+}
+
+article>h1:first-child {
+	margin-top : 0;
+}
+
+article h1:nth-of-type(n+2),
+aside>h1:nth-of-type(n+2) {
+	margin-top : 1.5rem;
+}
+
+
+section {
+	margin-top : 1.5em;
+	margin-bottom : 1.0em;
+}
+
+main h2 {
+	font-size : 1.25rem;
+	margin-top : 1.5rem;
+}
+
+main table {
+  border          : solid 2px gray;
+	border-collapse : collapse;
+}
+
+main table td,
+main table th {
+	border : solid 1px black;
+}
+
+main table th {
+	font-size : 1.1rem;
+}
+
+main table td {
+	vertical-align : top;
+}
+
+main table tr>td:first-of-type {
+  font-weight : bold;
+}
+
+dl {
+  margin-top : 1rem;
+}
+dt {
+	font-weight : bold;
+}
+
+dd {
+	margin-bottom : 0.5em;
+	padding-left  : 2.0em;
+}
+
+a {
+	text-decoration : none;
+	color           : black;
+}
+
+main a::before,
+nav  a::before {
+	content : '♦\00a0';
+}
+
+a:hover {
+	font-weight : bold;
+}
+
+a:visited {
+	color : #666;
+}
+
+dfn {
+	font-weight : bold;
+}
+
+code, command {
+	font-family: monospace;
+	font-weight: bold;
+	color : maroon;
+}
+
+pre {
+  margin : 0.5rem 0 0.5rem 2rem;
+}
+
+pre code {
+  color : black;
+}
+
+pre code .old {
+  color : gray;
+}
+
+ul>li {
+  margin-top : 0.5rem
+}
+
+ul>li>ul>li {
+margin-top: 0.125rem;
+}
+
+ul.hand li {
+  list-style-type : "\261E\a0";
+  list-style-position : outside;
+}
+ul.hand a::before {
+  content : "";
+}
+
+footer {
+	clear      : both;
+	text-align : center;
+  position   : absolute;
+  bottom     : 0;
+	margin-top : 2rem;
+	margin-bottom : 1rem;
+  padding    : auto;
+  background : transparent;
+
+  width      : calc(100% - 2.0rem);
+
+}
+footer>ul>li {
+	display  : inline-block;
+	width    : 10.0em;
+}
+
+.h3 {
+  font-size : 1.0rem;
+}
+
+blockquote {
+  padding-left : 2.0rem;
+  font-style   : italic;
+}
+
+figcaption {
+  text-align : right;
+}
+
+

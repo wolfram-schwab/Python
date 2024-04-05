@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:ns="http://www.schwab.de/autor"
+           targetNamespace="http://www.schwab.de/autor"
+           elementFormDefault="qualified">
+
+  <xs:element name="autor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="geboren" type="xs:date"/>
+        <xs:element name="gestorben" type="xs:date" minOccurs="0"/>
+        <xs:element name="preis" type="ns:preisTyp"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="preisTyp">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="jahr" type="xs:integer"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:buecher xmlns:b="http://www.buch.info/buch" xmlns:a="http://www.buch.info/autor">
+   <b:buch isbn="3423004002">
+      <b:titel>Ansichten eines Clowns</b:titel>
+      <b:jahr>1967</b:jahr>
+      <a:autor>
+         <a:name>Böll</a:name>
+         <a:vorname>Heinrich</a:vorname>
+         <a:geboren>21.12.1917</a:geboren>
+         <a:gestorben>16.07.1985</a:gestorben>
+         <a:preis jahr="1953">Deutscher Kritikerpreis</a:preis>
+         <a:preis jahr="1972">Nobelpreis für Literatur</a:preis>
+      </a:autor>
+      <b:preis waehrung="€">8.90</b:preis>
+   </b:buch>
+   <b:buch isbn="3518458558">
+      <b:titel>Der Steppenwolf</b:titel>
+      <b:jahr>1927</b:jahr>
+      <a:autor>
+         <a:name>Hesse</a:name>
+         <a:vorname>Hermann Karl</a:vorname>
+         <a:geboren>02.07.1877</a:geboren>
+         <a:gestorben>09.08.1962</a:gestorben>
+         <a:preis jahr="1936">Gottfried-Keller-Preis</a:preis>
+         <a:preis jahr="1946">Nobelpreis für Literatur</a:preis>
+      </a:autor>
+      <b:preis waehrung="€">7.00</b:preis>
+   </b:buch>
+   <b:buch isbn="3423134119">
+      <b:titel>Deutschstunde</b:titel>
+      <b:jahr>1968</b:jahr>
+      <a:autor>
+         <a:name>Lenz</a:name>
+         <a:vorname>Siegfried</a:vorname>
+         <a:geboren>17.03.1926</a:geboren>
+         <a:preis jahr="1988">Friedenspreis des Deutschen Buchhandels</a:preis>
+         <a:preis jahr="1999">Goethepreis der Stadt Frankfurt</a:preis>
+      </a:autor>
+      <b:preis waehrung="€">9,90</b:preis>
+   </b:buch>
+</b:buecher>

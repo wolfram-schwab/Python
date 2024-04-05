@@ -1,0 +1,16 @@
+<?xml version="1.5" encoding="ISO-8859-1"?>
+
+<notiz>
+
+   <thema>XML</thema>
+
+   <erstellt>
+      <datum tag="22" monat="07" jahr=1987/>
+   </Erstellt>
+
+   <inhalt>XML sollte endlich erfunden werden</inhalt>
+
+</notiz>
+
+<zeichen>WS</zeichen>
+

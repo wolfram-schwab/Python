@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	{{head|safe}}
+
+	<body>
+		<header>
+			<h1><a href="/."><span></span></a><br/>
+			    <span>Stand: 2022-03-26</span></h1>
+      <h2>Sitemap</h2>
+      <h3></h3>
+    </header>
+
+    <nav> 
+      {{nav|safe}}
+    </nav>
+
+		<main>
+      <aside>
+        <!-- h1>Materialien</h1>
+        <ul>
+          <li><a href="/static/resources/python/ch00/intro.py">Einführung ;)</a></li>
+        </ul -->
+      </aside>
+      <article>
+      <style>
+        ul {
+          font-family : monospace;
+          padding-left: 1.0rem;
+        }
+        li {
+          list-style-type : none;
+        }
+        li.dir {
+          font-weight : bold;
+        }
+
+        li.dir::before {
+          content : '\1F5C0\00a0';
+          font-weight : bold;
+        }
+      </style>
+        <section>
+          <h1>mysite</h1>
+          <ul>
+        {{ directory | safe }}
+          </ul>
+        </section>
+      </article>
+		</main>
+
+	</body>
+</html>

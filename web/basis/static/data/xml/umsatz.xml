@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xml" href="umsatz.xsl"?>
+<umsatz>
+   <firma>
+      <name>Peuthe AG</name>
+      <sparten>
+         <sparte>Petrochemie</sparte>
+         <sparte>Pharma</sparte>
+         <sparte>Photographie</sparte>
+      </sparten>
+   </firma>
+   <jahre>
+      <jahr jahr="1997">
+         <petro waehrung="€" einheit="Mio">17</petro>
+         <pharma waehrung="€" einheit="Mio">97</pharma>
+         <photo waehrung="€" einheit="Mio">37</photo>
+      </jahr>
+      <jahr jahr="1998">
+         <petro waehrung="€" einheit="Mio">96</petro>
+         <pharma waehrung="€" einheit="Mio">45</pharma>
+         <photo waehrung="€" einheit="Mio">28</photo>
+      </jahr>
+      <jahr jahr="1999">
+         <petro waehrung="€" einheit="Mio">77</petro>
+         <pharma waehrung="€" einheit="Mio">81</pharma>
+         <photo waehrung="€" einheit="Mio">26</photo>
+      </jahr>
+      <jahr jahr="2000">
+         <petro waehrung="€" einheit="Mio">53</petro>
+         <pharma waehrung="€" einheit="Mio">22</pharma>
+         <photo waehrung="€" einheit="Mio">21</photo>
+      </jahr>
+      <jahr jahr="2001">
+         <petro waehrung="€" einheit="Mio">88</petro>
+         <pharma waehrung="€" einheit="Mio">46</pharma>
+         <photo waehrung="€" einheit="Mio">23</photo>
+      </jahr>
+      <jahr jahr="2002">
+         <petro waehrung="€" einheit="Mio">93</petro>
+         <pharma waehrung="€" einheit="Mio">49</pharma>
+         <photo waehrung="€" einheit="Mio">20</photo>
+      </jahr>
+      <jahr jahr="2003">
+         <petro waehrung="€" einheit="Mio">98</petro>
+         <pharma waehrung="€" einheit="Mio">48</pharma>
+         <photo waehrung="€" einheit="Mio">18</photo>
+      </jahr>
+      <jahr jahr="2004">
+         <petro waehrung="€" einheit="Mio">102</petro>
+         <pharma waehrung="€" einheit="Mio">51</pharma>
+         <photo waehrung="€" einheit="Mio">14</photo>
+      </jahr>
+      <jahr jahr="2005">
+         <petro waehrung="€" einheit="Mio">100</petro>
+         <pharma waehrung="€" einheit="Mio">54</pharma>
+         <photo waehrung="€" einheit="Mio">12</photo>
+      </jahr>
+      <jahr jahr="2006">
+         <petro waehrung="€" einheit="Mio">97</petro>
+         <pharma waehrung="€" einheit="Mio">58</pharma>
+         <photo waehrung="€" einheit="Mio">8</photo>
+      </jahr>
+      <jahr jahr="2007">
+         <petro waehrung="€" einheit="Mio">88</petro>
+         <pharma waehrung="€" einheit="Mio">78</pharma>
+         <photo waehrung="€" einheit="Mio">28</photo>
+      </jahr>
+   </jahre>
+</umsatz>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    {% block head %}
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" href="/static/resources/css/style.css" type="text/css">
+	  <link rel="shortcut icon" href="/static/resources/images/python_icon.png" type="image/x-icon">
+	  <title>python</title>
+    {% endblock %}
+	</head>
+
+  <body>
+		<header>
+      {% block header %}
+      {% endblock %}
+		</header>
+
+    <nav>
+        {% block nav %}
+        {% endblock %}
+    </nav>
+    
+    <main>
+      <nav>
+        {% block sitemap %}
+        {% endblock %}
+      </nav>
+
+      <aside>
+        {% block aside %}
+        {% endblock %}
+      </aside>
+      
+      <article>
+        {% block article %}
+        {% endblock %}
+      </article>
+    </main>
+    <footer>
+        <ul>
+				<li>{% block back %}{% endblock %}</li>
+				<li>{% block above %}{% endblock %}</li>
+				<li>{% block forward %}{% endblock %}</li>
+			</ul>
+    </footer>
+  </body>
+</html>

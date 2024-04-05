@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<notiz>
+
+   <thema>XML</thema>
+
+   <erstellt>
+      <datum tag="22" monat="07" jahr="1987"/>
+   </erstellt>
+
+   <inhalt>XML sollte endlich erfunden werden</inhalt>
+  
+   <zeichen>WS</zeichen>
+
+</notiz>
+
+

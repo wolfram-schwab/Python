@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autoren>
+   <autor>
+      <name>Böll</name>
+      <vorname>Heinrich</vorname>
+      <geboren>21.12.1917</geboren>
+      <gestorben>16.07.1985</gestorben>
+      <preis jahr="1953">Deutscher Kritikerpreis</preis>
+      <preis jahr="1972">Nobelpreis für Literatur</preis>
+   </autor>
+   <autor>
+      <name>Hesse</name>
+      <vorname>Hermann Karl</vorname>
+      <geboren>02.07.1877</geboren>
+      <gestorben>09.08.1962</gestorben>
+      <preis jahr="1936">Gottfried-Keller-Preis</preis>
+      <preis jahr="1946">Nobelpreis für Literatur</preis>
+   </autor>
+   <autor>
+      <name>Lenz</name>
+      <vorname>Siegfried</vorname>
+      <geboren>17.03.1926</geboren>
+      <preis jahr="1988">Friedenspreis des Deutschen Buchhandels</preis>
+      <preis jahr="1999">Goethepreis der Stadt Frankfurt</preis>
+   </autor>
+</autoren>

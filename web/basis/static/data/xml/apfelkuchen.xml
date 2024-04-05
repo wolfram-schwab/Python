@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<rezept>
+   <titel>Apfelkuchen mit Mandelsplittern</titel>
+
+   <bild quelle="./images/apfelkuchen.jpg">Apfelkuchen</bild>
+
+   <zutaten>
+      <zutat>
+         <bezeichnung>Äpfel</bezeichnung>
+         <menge>
+            <anzahl>1</anzahl>
+            <einheit>kg</einheit>
+         </menge>
+      </zutat>
+      <zutat>
+         <bezeichnung>Wasser 
+            <eigenschaft>kalt</eigenschaft>
+         </bezeichnung>
+         <menge>
+            <anzahl>5</anzahl>
+            <einheit>EL</einheit>
+         </menge>
+      </zutat>
+      <zutat>
+         <bezeichnung>Zitronensaft</bezeichnung>
+         <menge>
+            <anzahl>1</anzahl>
+            <einheit>TL</einheit>
+         </menge>
+      </zutat>
+      <zutat>
+         <bezeichnung>Butter</bezeichnung>
+         <menge>
+            <anzahl>150</anzahl>
+            <einheit>g</einheit>
+         </menge>
+      </zutat>
+      <zutat>
+         <bezeichnung>Zucker</bezeichnung>
+         <menge>
+            <anzahl>200</anzahl>
+            <einheit>g</einheit>
+         </menge>
+      </zutat>
+      <zutat>
+         <bezeichnung>Vanillepulver
+            <eigenschaft>ungesüßt</eigenschaft>
+         </bezeichnung>
+         <menge>
+            <anzahl>1</anzahl>
+            <einheit>TL</einheit>
+         </menge>
+      </zutat>
+      <zutat>
+         <bezeichnung>Zitronenschale</bezeichnung>
+         <menge>
+            <anzahl>0.25</anzahl>
+            <einheit>TL</einheit>
+         </menge>
+      </zutat>
+      <zutat>
+         <bezeichnung>Salz</bezeichnung>
+      </zutat>
+      <zutat>
+         <bezeichnung>Eier</bezeichnung>
+         <menge>
+            <anzahl>3</anzahl>
+         </menge>
+      </zutat>
+      <zutat>
+         <bezeichnung>Mehl</bezeichnung>
+         <menge>
+            <anzahl>280</anzahl>
+            <einheit>g</einheit>
+         </menge>
+      </zutat>
+      <zutat>
+         <bezeichnung>Backpulver</bezeichnung>
+         <menge>
+            <anzahl>1</anzahl>
+            <einheit>TL</einheit>
+         </menge>
+      </zutat>
+      <zutat>
+         <bezeichnung>Milch</bezeichnung>
+         <menge>
+            <anzahl>8</anzahl>
+            <einheit>cl</einheit>
+         </menge>
+      </zutat>
+      <zutat>
+         <bezeichnung>Mandelsplitter</bezeichnung>
+         <menge>
+            <anzahl>30</anzahl>
+            <einheit>g</einheit>
+         </menge>
+      </zutat>
+      <zutat>
+         <bezeichnung>Puderzucker</bezeichnung>
+         <menge>
+            <anzahl>20</anzahl>
+            <einheit>g</einheit>
+         </menge>
+      </zutat>
+   </zutaten>
+
+   <statistik>
+      <portion>16</portion>
+      <kcal>247</kcal>
+      <zeit einheit="min">
+         <zubereitung>20</zubereitung>
+         <gesamt>90</gesamt>
+      </zeit>
+   </statistik>
+
+   <links>
+      <link url="http://www.marions-kochbuch.de/rezept/0893.htm">
+         Apfelkuchen vom Blech</link> 
+      <link url="http://www.marions-kochbuch.de/rezept/0107.htm">
+         Wiener Apfelkuchen</link> 
+      <link url="http://www.marions-kochbuch.de/rezept/0243.htm">
+         Apfeltaschen</link> 
+      <link url="http://www.marions-kochbuch.de/rezept/0900.htm">
+         Das Original</link>
+   </links>
+
+   <anleitung>
+      <step nr="1">
+         Das Rezept für den Apfelkuchen mit Mandelsplittern reicht für 1/2 Blech.
+         Die Menge läßt sich verdoppeln.
+         Die Backzeit bleibt gleich.
+      </step>
+      <step nr="2">
+         Äpfel schälen, entkernen und in Spalten schneiden.
+            Mit 5 EL Wasser und Zitronensaft kurz zum Kochen bringen und ca. 3 Minuten kochen.
+            Äpfel abtropfen lassen.
+      </step>
+      <step nr="3">
+         Butter mit Zucker, Vanillepulver (Aroma), abgeriebener Zitronenschale und einer Prise Salz schaumig rühren.
+            Eier nach und nach darunter rühren.
+            Mehl mit Backpulver mischen.
+            Mehl und Milch abwechselnd zur Buttermasse zufügen.
+            Alles zu einem geschmeidigen Rührteig verrühren.
+      </step>
+      <step nr="4">
+         Backblech mit Backpapier auslegen.
+            Alufolie mehrfach knicken, einen Rand formen und mit Fett einpinseln.
+            Das Blech damit zur Hälfte abteilen.
+            Den Teig einfüllen und glattstreichen.
+            Mit den Apfelscheiben belegen.
+            Mandelsplitter mit leicht angefeuchteten Händen durchmischen.
+            Puderzucker zufügen, mischen und über die Äpfel streuen.
+      </step>
+      <step nr="5">
+         Ofen auf 170° vorheizen. Auf der mittleren Schiene ca. 55-60 Minuten backen.
+      </step>
+   </anleitung>
+</rezept>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	{% include url_for('einbeziehen', included='kurs_head.html') %}
+
+	<body>
+		<header>
+			<h1><a href="/."><span></span></a><br/>
+			    <span>Stand: 2023-11-06</span></h1>
+      <h2>Python Grundlagen</h2>
+      <h3></h3>
+    </header>
+
+    <nav>
+      {% include url_for('einbeziehen', included='kurs_nav.html') %}
+    </nav>
+
+    <aside>
+      <h1>Aufgaben</h1>
+      <style>
+        aside>ul>li { margin-bottom : 0.125rem; margin-top : 0; }</style>
+      </style>
+      <ul>
+        {% for nr in aufgaben : %}
+          <li><b><a href="{{aufgaben[nr].split()[0]}}"
+                 target="source">{{nr}}</a></b>: {{" ".join(aufgaben[nr].split()[1:])}}</li>
+        {% endfor %}
+      </ul>
+
+      <h1>Materialien</h1>
+      <ul>
+          <!-- li><a href="static/data/kurs2022-09-19.7z">Kursdaten KW38</a></li -->
+      </ul>
+    </aside>
+
+		<main>
+      <article></article>
+		</main>
+
+	</body>
+</html>

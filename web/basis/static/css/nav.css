@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body>nav {
+  margin  : 2rem 0 0 1.5rem;
+  width   : 75vw;
+  float   : left;
+/*clear   : both;*/
+}
+
+body>nav>ul>li {
+	display        : inline-block;
+	width          : 13.0em;
+  font-size      : 1.5rem;
+	padding        : 0.5rem 1.0em;
+	background     : white;
+  font-weight    : bold;
+	position       : relative;
+	margin-bottom  : 1.0em;
+  vertical-align :top;
+}
+
+body>nav>ul>li>ul {
+	display    : none;
+  background : transparent;
+  list-style : none;
+  font-weight: normal;
+}
+
+body>nav>ul>li>ul>li:first-child {
+  padding-top : 0rem;
+}
+
+body>nav>ul>li:hover>ul {
+	display      : block;
+	position     : absolute;
+  z-index      : 10;
+	padding-left : 0;
+  background   : white;
+}
+
+body>nav>ul>li:hover>ul>li {
+	width      : 20.0rem;
+  text-align : left;
+}
+
+/* Seitennavigation */
+main>nav {
+  position   : absolute;
+  top        : 0;
+  left       : -9rem;
+  margin     : 0;
+  width      : 9rem;
+  padding    : 0.5rem;
+  background : #eee;
+}
+
+main>nav:hover {
+  left : -0.7rem;
+}
+
+main>nav>h1 {
+  font-weight : normal;
+}
+
+main>nav>ul {
+  margin     : 0;
+  list-style : none;
+}
+
+main>nav>ul {
+  margin : 0;
+  padding : 0;
+}
+
+main>nav>ul>li {
+  font-size   : 0.7rem;
+  font-weight : bold;  
+}
+
+main>nav>ul>li>ul {
+  list-style   : none;
+  padding-left : 1em;
+}
+
+main>nav>ul>li>ul>li {
+  font-weight : normal;  
+}
